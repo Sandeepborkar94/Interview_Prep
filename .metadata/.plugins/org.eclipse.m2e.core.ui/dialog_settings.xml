@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Sandy\MyPhoneData\Project Task sts\VTL_DEMO\src\main\java\net\javaguides\apache\velocity\model"/>
+			<item value="C:\Users\Sandy\MyPhoneData\Project Task sts\DEMO_VTL1\src"/>
+			<item value="C:\Users\Sandy\MyPhoneData\Project Task sts\VTL_DEMO"/>
+			<item value="C:\Users\Sandy\MyPhoneData\Project Task sts\JavaDemo\src\com\ks\test1\Car.java"/>
+			<item value="C:\Users\Sandy\MyPhoneData\Project Task sts\Project_for_interview_Preparation\src\main\resources\application.properties"/>
+			<item value="C:\Users\Sandy\MyPhoneData\Project Task sts\springbootrestapicrud\src\main\java\com\infy\springbootrestapicrud\app\exception\GlobalExceptionHandler.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.example"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Velocity_Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Sandy\OneDrive\Desktop\Infy\08_11_23_ANT\velocity-example"/>
+			<item value="C:\Users\Sandy\OneDrive\Desktop\Infy\22_04_2022\Tender-Management-System"/>
+			<item value="C:\Users\Sandy\MyPhoneData\Project Task sts\my-app"/>
+			<item value="C:\Users\Sandy\Downloads\InfyGoMonolithApp1653635711537\InfyGo_Monolith_App\InfyGo_Monolith_App"/>
+			<item value="C:\Users\Sandy\Downloads\infytelmonolithic1662979194885\infytelmonolithic\infytelmonolithic\infytel-monolithic-00"/>
+			<item value="C:\Users\Sandy\Downloads\SpringDataJpaCustomQuery"/>
+			<item value="C:\Users\Sandy\OneDrive\Desktop\mypics\home-loan-git"/>
+			<item value="C:\Users\Sandy\MyPhoneData\DTO\springbootrestapi-CRUD-DTO-MapStruct"/>
+			<item value="C:\Users\Sandy\MyPhoneData\Project Task sts\springbootrestapi-CRUD-DTO -MapStruct"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="Demo_Module"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="917"/>
+		<item key="x" value="720"/>
+		<item key="y" value="0"/>
+	</section>
+</section>

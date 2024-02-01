@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=springbootrestapicrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infy.springbootrestapicrud.app.serviceI{ProductServiceI.java[ProductServiceI" modifiers="513" timestamp="1661407218558"/>
+    <typeInfo handle="=springbootrestapicrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infy.springbootrestapicrud.app.serviceI{SupplierServiceI.java[SupplierServiceI" modifiers="513" timestamp="1661368611231"/>
+    <typeInfo handle="=SpringbootrestapiEmailSending-Practice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infy.SpringbootrestapiEmailSending.serviceI{MailServiceI.java[MailServiceI" modifiers="513" timestamp="1661675796464"/>
+    <typeInfo handle="=File-Upload-via-FRONTEND/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cjc.upload.app.ServiceI{Service_Interace.java[Service_Interace" modifiers="513" timestamp="1661842725950"/>
+    <typeInfo handle="=Project_for_interview_Preparation/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infy.intervie.app.Services{StudentService.java[StudentService" modifiers="513" timestamp="1665465753110"/>
+    <typeInfo handle="=Tender_Management/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infy.service{UserService.java[UserService" modifiers="513" timestamp="1682150420236"/>
+    <typeInfo handle="=Tender_Management/C:\/Users\/Sandy\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.nio.file.attribute(UserDefinedFileAttributeView.class[UserDefinedFileAttributeView" modifiers="1537" timestamp="1652604562000"/>
+</typeInfoHistroy>

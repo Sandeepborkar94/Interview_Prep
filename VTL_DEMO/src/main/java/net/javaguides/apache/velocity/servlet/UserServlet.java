@@ -1,0 +1,39 @@
+package net.javaguides.apache.velocity.servlet;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.velocity.Template;
+import org.apache.velocity.context.Context;
+import org.apache.velocity.tools.view.VelocityViewServlet;
+
+import net.javaguides.apache.velocity.model.User;
+import net.javaguides.apache.velocity.service.UserService;
+
+public class UserServlet extends VelocityViewServlet {
+
+    private static final long serialVersionUID = 1 L;
+
+    UserService service = new UserService();
+
+    @Override
+    public Template handleRequest(HttpServletRequest request, HttpServletResponse response, Context context) {
+
+        List < User > users = service.getUsers();
+
+        context.put("users", users);
+
+        Template template = null;
+
+        try {
+            template = getTemplate("templates/index.vm");
+            response.setHeader("Template Returned", "Success");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return template;
+    }
+}

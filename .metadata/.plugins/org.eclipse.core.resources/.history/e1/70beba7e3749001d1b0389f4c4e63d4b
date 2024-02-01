@@ -1,0 +1,87 @@
+package com.infy.intervie.app.ServiceImpl;
+
+import java.util.List;
+import java.util.Set;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
+import org.springframework.stereotype.Service;
+
+import com.infy.intervie.app.Services.StudentService;
+import com.infy.intervie.app.exceptions.StudentNotFoundException;
+import com.infy.intervie.app.model.Student;
+import com.infy.intervie.app.repository.StudentRepo;
+
+@Service
+public class StudentServiceImpl implements StudentService 
+{
+	@Autowired private StudentRepo repo;
+
+	@Override
+	public Student saveStudent(Student student) 
+	{
+		Integer id = student.getStudentID();
+
+		System.out.println("Student ID:  " + id);
+
+		Student ss = this.repo.save(student);
+
+		if (id == ss.getStudentID()) {
+			System.out.println("Student ID alredy present");
+		}
+
+		return ss;
+	}
+
+	@Override
+	public List<Student> getAllStudent() 
+	{
+		return this.repo.findAll(Sort.by("studentName").ascen);
+	}
+
+	@Override
+	public Student getSingleStudent(int id)
+	{
+		Student sId = this.repo.findByStudentID(id);
+
+		if (sId == null)
+		{
+			throw new StudentNotFoundException("Student Not found");
+		}
+		return sId;
+	}
+
+	@Override
+	public void deleteStudentById(int id) 
+	{
+		int id1 = id;
+		
+		if (id1 == 0) {
+			throw new StudentNotFoundException("Student not Found");
+			
+		} else {
+			this.repo.deleteById(id);
+		}
+	}
+
+	@Override
+	public Student updateStudent(Student student, Integer sid)
+	{
+		Student stu = this.repo.findByStudentID(sid);
+
+//		stu.setStudentName(student.getStudentName());
+//		stu.setStudentAge(student.getStudentAge());
+//		stu.setStudentAddress(student.getStudentAddress());
+
+		return this.repo.save(stu);
+
+	}
+
+	@Override
+	public List<Student> getAllStudent1(Student stu) {
+		
+		return this.repo.findAll();
+	}
+
+	
+}

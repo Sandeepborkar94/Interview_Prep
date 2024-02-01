@@ -1,0 +1,21 @@
+INDEX VERSION 1.4+C:\Users\Sandy\MyPhoneData\Project Task sts\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+545371280.index
+1689304405.index
+905375276.index
+3515893070.index
+4198289957.index
+1368719089.index
+176763618.index
+834612446.index
+2461972335.index
+853243528.index
+460916449.index
+2248229479.index
+4080638119.index
+1621791474.index
+2841644906.index
+3376185298.index
+1443133142.index
+3448950484.index
+3109628088.index
+83382878.index

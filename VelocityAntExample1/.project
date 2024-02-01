@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>VelocityAntExample1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>classes</name>
+			<type>2</type>
+			<location>C:/Users/Sandy/OneDrive/Desktop/Infy/08_11_23_ANT/velocity-ant-example/build/classes</location>
+		</link>
+		<link>
+			<name>java</name>
+			<type>2</type>
+			<location>C:/Users/Sandy/OneDrive/Desktop/Infy/08_11_23_ANT/velocity-ant-example/src/main/java</location>
+		</link>
+	</linkedResources>
+</projectDescription>
